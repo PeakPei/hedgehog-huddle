@@ -23,6 +23,8 @@
 		3FB898BC182C0E79001A7D81 /* HedgehogHuddleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB898BB182C0E79001A7D81 /* HedgehogHuddleTests.m */; };
 		3FBBCE9A182C18CE00D443A8 /* TitleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBCE99182C18CE00D443A8 /* TitleScreen.m */; };
 		3FBBCEA0182C1A7A00D443A8 /* GameScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBCE9F182C1A7A00D443A8 /* GameScreen.m */; };
+		590E5F121831663A002F7C37 /* testBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 590E5F111831663A002F7C37 /* testBall.png */; };
+		590E5F1418316756002F7C37 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590E5F1318316756002F7C37 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		3FBBCE99182C18CE00D443A8 /* TitleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScreen.m; sourceTree = "<group>"; };
 		3FBBCE9E182C1A7A00D443A8 /* GameScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScreen.h; path = ../GameScreen.h; sourceTree = "<group>"; };
 		3FBBCE9F182C1A7A00D443A8 /* GameScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScreen.m; path = ../GameScreen.m; sourceTree = "<group>"; };
+		590E5F111831663A002F7C37 /* testBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testBall.png; sourceTree = "<group>"; };
+		590E5F1318316756002F7C37 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590E5F1418316756002F7C37 /* CoreMotion.framework in Frameworks */,
 				3FB89893182C0E79001A7D81 /* CoreGraphics.framework in Frameworks */,
 				3FB89895182C0E79001A7D81 /* UIKit.framework in Frameworks */,
 				3FB89891182C0E79001A7D81 /* Foundation.framework in Frameworks */,
@@ -107,6 +112,7 @@
 		3FB8988F182C0E79001A7D81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				590E5F1318316756002F7C37 /* CoreMotion.framework */,
 				3FB89890182C0E79001A7D81 /* Foundation.framework */,
 				3FB89892182C0E79001A7D81 /* CoreGraphics.framework */,
 				3FB89894182C0E79001A7D81 /* UIKit.framework */,
@@ -118,6 +124,7 @@
 		3FB89896182C0E79001A7D81 /* HedgehogHuddle */ = {
 			isa = PBXGroup;
 			children = (
+				590E5F111831663A002F7C37 /* testBall.png */,
 				3FB8989F182C0E79001A7D81 /* AppDelegate.h */,
 				3FB898A0182C0E79001A7D81 /* AppDelegate.m */,
 				3FB898A2182C0E79001A7D81 /* Main.storyboard */,
@@ -240,6 +247,7 @@
 			files = (
 				3FB898A9182C0E79001A7D81 /* Images.xcassets in Resources */,
 				3FB8989B182C0E79001A7D81 /* InfoPlist.strings in Resources */,
+				590E5F121831663A002F7C37 /* testBall.png in Resources */,
 				3FB898A4182C0E79001A7D81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
