@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bumper - 3</key>
+	<array>
+		<integer>3</integer>
+		<integer>515</integer>
+		<integer>800</integer>
+	</array>
+	<key>Bumper - 2</key>
+	<array>
+		<integer>3</integer>
+		<integer>675</integer>
+		<integer>880</integer>
+	</array>
+	<key>Bumper</key>
+	<array>
+		<integer>3</integer>
+		<integer>355</integer>
+		<integer>880</integer>
+	</array>
+	<key>Hole 2</key>
+	<array>
+		<integer>2</integer>
+		<integer>480</integer>
+		<integer>690</integer>
+	</array>
+	<key>Hole</key>
+	<array>
+		<integer>2</integer>
+		<integer>390</integer>
+		<integer>520</integer>
+	</array>
+	<key>Wall</key>
+	<array>
+		<integer>0</integer>
+		<integer>660</integer>
+		<integer>120</integer>
+		<integer>60</integer>
+		<integer>240</integer>
+	</array>
+	<key>Wall - 2</key>
+	<array>
+		<integer>0</integer>
+		<integer>740</integer>
+		<integer>450</integer>
+		<integer>60</integer>
+		<integer>270</integer>
+	</array>
+	<key>Wall - 3</key>
+	<array>
+		<integer>0</integer>
+		<integer>600</integer>
+		<integer>450</integer>
+		<integer>60</integer>
+		<integer>540</integer>
+	</array>
+	<key>Wall - 4</key>
+	<array>
+		<integer>0</integer>
+		<integer>660</integer>
+		<integer>720</integer>
+		<integer>60</integer>
+		<integer>120</integer>
+	</array>
+	<key>Wall - 5</key>
+	<array>
+		<integer>0</integer>
+		<integer>485</integer>
+		<integer>930</integer>
+		<integer>570</integer>
+		<integer>60</integer>
+	</array>
+	<key>Wall - 6</key>
+	<array>
+		<integer>0</integer>
+		<integer>510</integer>
+		<integer>750</integer>
+		<integer>360</integer>
+		<integer>60</integer>
+	</array>
+	<key>Wall - 7</key>
+	<array>
+		<integer>0</integer>
+		<integer>180</integer>
+		<integer>780</integer>
+		<integer>60</integer>
+		<integer>360</integer>
+	</array>
+	<key>Wall - 8</key>
+	<array>
+		<integer>0</integer>
+		<integer>540</integer>
+		<integer>540</integer>
+		<integer>60</integer>
+		<integer>360</integer>
+	</array>
+	<key>Wall - 9</key>
+	<array>
+		<integer>0</integer>
+		<integer>360</integer>
+		<integer>390</integer>
+		<integer>300</integer>
+		<integer>60</integer>
+	</array>
+	<key>Wall - 10</key>
+	<array>
+		<integer>0</integer>
+		<integer>330</integer>
+		<integer>570</integer>
+		<integer>60</integer>
+		<integer>180</integer>
+	</array>
+	<key>Wall - 11</key>
+	<array>
+		<integer>0</integer>
+		<integer>120</integer>
+		<integer>30</integer>
+		<integer>120</integer>
+		<integer>60</integer>
+	</array>
+	<key>Wall - 12</key>
+	<array>
+		<integer>0</integer>
+		<integer>120</integer>
+		<integer>270</integer>
+		<integer>120</integer>
+		<integer>60</integer>
+	</array>
+	<key>Wall - 13</key>
+	<array>
+		<integer>0</integer>
+		<integer>120</integer>
+		<integer>510</integer>
+		<integer>120</integer>
+		<integer>60</integer>
+	</array>
+	<key>Wall - 14</key>
+	<array>
+		<integer>0</integer>
+		<integer>60</integer>
+		<integer>150</integer>
+		<integer>120</integer>
+		<integer>60</integer>
+	</array>
+	<key>Wall - 15</key>
+	<array>
+		<integer>0</integer>
+		<integer>60</integer>
+		<integer>390</integer>
+		<integer>120</integer>
+		<integer>60</integer>
+	</array>
+	<key>Wall - 16</key>
+	<array>
+		<integer>0</integer>
+		<integer>210</integer>
+		<integer>270</integer>
+		<integer>60</integer>
+		<integer>540</integer>
+	</array>
+	<key>Wall - 17</key>
+	<array>
+		<integer>0</integer>
+		<integer>180</integer>
+		<integer>630</integer>
+		<integer>360</integer>
+		<integer>60</integer>
+	</array>
+	<key>Finish</key>
+	<array>
+		<integer>1</integer>
+		<integer>30</integer>
+		<integer>30</integer>
+		<integer>60</integer>
+		<integer>60</integer>
+	</array>
+</dict>
+</plist>

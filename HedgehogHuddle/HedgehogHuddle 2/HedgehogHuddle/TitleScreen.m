@@ -18,6 +18,9 @@
 
 @implementation TitleScreen{
     SKSpriteNode *title;
+    CGRect screenRect;
+    float _screenHeight;
+    float _screenWidth;
 }
 
 -(void)didMoveToView:(SKView *)view{
@@ -28,17 +31,12 @@
 }
 
 -(void)createSceneContents{
-    self.backgroundColor = [SKColor redColor];
     self.scaleMode = SKSceneScaleModeAspectFit;
     
     // Add a background image
-    // Image will have everything already on it,
-    // So we won't need multiple layers of images
-    /*
-     SKSpriteNode *titleBG = [[SKSpriteNode alloc] initWithImageNamed:@"titleScreenBG.png"];
-     spaceship.position = CGPointMake(0, 0);  // Create image at the origin
-     [self addChild:titleBG];
-     */
+    SKSpriteNode *titleBG = [[SKSpriteNode alloc] initWithImageNamed:@"titleScreen.png"];
+    titleBG.position = CGPointMake(CGRectGetMidX(self.frame),CGRectGetMidY(self.frame));
+    [self addChild:titleBG];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
