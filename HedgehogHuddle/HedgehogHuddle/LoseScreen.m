@@ -6,18 +6,18 @@
 //  Copyright (c) 2013 Natasha and Carl. All rights reserved.
 //
 
-#import "loseScreen.h"
+#import "LoseScreen.h"
 #import "TitleScreen.h"
 #import "SoundController.h"
 
-@interface loseScreen ()
+@interface LoseScreen ()
 
 @property BOOL contentCreated;
 
 @end
 
 
-@implementation loseScreen{
+@implementation LoseScreen{
     SoundController *_sound;
     CGFloat _screenHeight;
     CGFloat _screenWidth;
