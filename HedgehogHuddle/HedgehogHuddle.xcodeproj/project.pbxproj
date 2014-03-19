@@ -8,22 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3F39AFA51835588100282BF9 /* WinScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F39AFA41835588100282BF9 /* WinScreen.m */; };
-		3F39AFA9183559DD00282BF9 /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F39AFA8183559DD00282BF9 /* win.png */; };
 		3F39AFAC18355B8D00282BF9 /* SoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F39AFAB18355B8D00282BF9 /* SoundController.m */; };
 		3F39AFB018355F5000282BF9 /* timeRunningOutSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F39AFAE18355F5000282BF9 /* timeRunningOutSound.wav */; };
 		3F39AFB118355F5000282BF9 /* winSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F39AFAF18355F5000282BF9 /* winSound.wav */; };
 		3F39AFB31835605800282BF9 /* hitSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F39AFB21835605800282BF9 /* hitSound.wav */; };
 		3F39AFB51835642200282BF9 /* loseSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F39AFB41835642200282BF9 /* loseSound.wav */; };
-		3F5BFE33185E684B0012DCB3 /* hedgehog1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BFE2E185E684B0012DCB3 /* hedgehog1.png */; };
-		3F5BFE34185E684B0012DCB3 /* hedgehog2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BFE2F185E684B0012DCB3 /* hedgehog2.png */; };
-		3F5BFE35185E684B0012DCB3 /* log.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BFE30185E684B0012DCB3 /* log.png */; };
-		3F5BFE36185E684B0012DCB3 /* mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BFE31185E684B0012DCB3 /* mushroom.png */; };
-		3F5BFE37185E684B0012DCB3 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BFE32185E684B0012DCB3 /* rock.png */; };
 		3F5BFE39185E6C480012DCB3 /* Level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BFE38185E6C480012DCB3 /* Level1.plist */; };
 		3F5BFE3B185E85990012DCB3 /* Level2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BFE3A185E85990012DCB3 /* Level2.plist */; };
 		3F5BFE40185EA0520012DCB3 /* Level3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BFE3F185EA0520012DCB3 /* Level3.plist */; };
-		3F6DB1EA1832AD0000EAA004 /* titleScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6DB1E91832AD0000EAA004 /* titleScreen.png */; };
-		3F9C77F4183E99FB006C1C83 /* loseScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C77F3183E99FB006C1C83 /* loseScreen.png */; };
 		3F9C77F7183E9A42006C1C83 /* loseScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C77F6183E9A42006C1C83 /* loseScreen.m */; };
 		3FB89891182C0E79001A7D81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB89890182C0E79001A7D81 /* Foundation.framework */; };
 		3FB89893182C0E79001A7D81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB89892182C0E79001A7D81 /* CoreGraphics.framework */; };
@@ -41,7 +33,6 @@
 		3FB898BC182C0E79001A7D81 /* HedgehogHuddleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB898BB182C0E79001A7D81 /* HedgehogHuddleTests.m */; };
 		3FBBCE9A182C18CE00D443A8 /* TitleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBCE99182C18CE00D443A8 /* TitleScreen.m */; };
 		3FBBCEA0182C1A7A00D443A8 /* GameScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBCE9F182C1A7A00D443A8 /* GameScreen.m */; };
-		590E5F121831663A002F7C37 /* testBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 590E5F111831663A002F7C37 /* testBall.png */; };
 		590E5F1418316756002F7C37 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590E5F1318316756002F7C37 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,23 +49,15 @@
 /* Begin PBXFileReference section */
 		3F39AFA31835588100282BF9 /* WinScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinScreen.h; sourceTree = "<group>"; };
 		3F39AFA41835588100282BF9 /* WinScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinScreen.m; sourceTree = "<group>"; };
-		3F39AFA8183559DD00282BF9 /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win.png; path = ../win.png; sourceTree = "<group>"; };
 		3F39AFAA18355B8D00282BF9 /* SoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundController.h; sourceTree = "<group>"; };
 		3F39AFAB18355B8D00282BF9 /* SoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundController.m; sourceTree = "<group>"; };
 		3F39AFAE18355F5000282BF9 /* timeRunningOutSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = timeRunningOutSound.wav; sourceTree = "<group>"; };
 		3F39AFAF18355F5000282BF9 /* winSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = winSound.wav; sourceTree = "<group>"; };
 		3F39AFB21835605800282BF9 /* hitSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hitSound.wav; path = ../hitSound.wav; sourceTree = "<group>"; };
 		3F39AFB41835642200282BF9 /* loseSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = loseSound.wav; path = ../loseSound.wav; sourceTree = "<group>"; };
-		3F5BFE2E185E684B0012DCB3 /* hedgehog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedgehog1.png; path = ../hedgehog1.png; sourceTree = "<group>"; };
-		3F5BFE2F185E684B0012DCB3 /* hedgehog2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedgehog2.png; path = ../hedgehog2.png; sourceTree = "<group>"; };
-		3F5BFE30185E684B0012DCB3 /* log.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = log.png; path = ../log.png; sourceTree = "<group>"; };
-		3F5BFE31185E684B0012DCB3 /* mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mushroom.png; path = ../mushroom.png; sourceTree = "<group>"; };
-		3F5BFE32185E684B0012DCB3 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rock.png; path = ../rock.png; sourceTree = "<group>"; };
 		3F5BFE38185E6C480012DCB3 /* Level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level1.plist; sourceTree = "<group>"; };
 		3F5BFE3A185E85990012DCB3 /* Level2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level2.plist; sourceTree = "<group>"; };
 		3F5BFE3F185EA0520012DCB3 /* Level3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level3.plist; sourceTree = "<group>"; };
-		3F6DB1E91832AD0000EAA004 /* titleScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleScreen.png; sourceTree = "<group>"; };
-		3F9C77F3183E99FB006C1C83 /* loseScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loseScreen.png; path = ../loseScreen.png; sourceTree = "<group>"; };
 		3F9C77F5183E9A42006C1C83 /* loseScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loseScreen.h; path = ../Images/loseScreen.h; sourceTree = "<group>"; };
 		3F9C77F6183E9A42006C1C83 /* loseScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = loseScreen.m; path = ../Images/loseScreen.m; sourceTree = "<group>"; };
 		3FB8988D182C0E79001A7D81 /* HedgehogHuddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HedgehogHuddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +83,6 @@
 		3FBBCE99182C18CE00D443A8 /* TitleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScreen.m; sourceTree = "<group>"; };
 		3FBBCE9E182C1A7A00D443A8 /* GameScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScreen.h; path = ../GameScreen.h; sourceTree = "<group>"; };
 		3FBBCE9F182C1A7A00D443A8 /* GameScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScreen.m; path = ../GameScreen.m; sourceTree = "<group>"; };
-		590E5F111831663A002F7C37 /* testBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = testBall.png; path = ../HedgehogHuddle/testBall.png; sourceTree = "<group>"; };
 		590E5F1318316756002F7C37 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -140,27 +122,10 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		3F6DB1E81832AD0000EAA004 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				3F5BFE2E185E684B0012DCB3 /* hedgehog1.png */,
-				3F5BFE2F185E684B0012DCB3 /* hedgehog2.png */,
-				3F5BFE30185E684B0012DCB3 /* log.png */,
-				3F5BFE31185E684B0012DCB3 /* mushroom.png */,
-				3F5BFE32185E684B0012DCB3 /* rock.png */,
-				3F9C77F3183E99FB006C1C83 /* loseScreen.png */,
-				3F39AFA8183559DD00282BF9 /* win.png */,
-				590E5F111831663A002F7C37 /* testBall.png */,
-				3F6DB1E91832AD0000EAA004 /* titleScreen.png */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		3FB89884182C0E78001A7D81 = {
 			isa = PBXGroup;
 			children = (
 				3F39AFAD18355F5000282BF9 /* Sounds */,
-				3F6DB1E81832AD0000EAA004 /* Images */,
 				3FB89896182C0E79001A7D81 /* HedgehogHuddle */,
 				3FB898B5182C0E79001A7D81 /* HedgehogHuddleTests */,
 				3FB8988F182C0E79001A7D81 /* Frameworks */,
@@ -337,23 +302,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F39AFA9183559DD00282BF9 /* win.png in Resources */,
-				3F5BFE36185E684B0012DCB3 /* mushroom.png in Resources */,
 				3F39AFB31835605800282BF9 /* hitSound.wav in Resources */,
 				3F39AFB51835642200282BF9 /* loseSound.wav in Resources */,
-				3F9C77F4183E99FB006C1C83 /* loseScreen.png in Resources */,
 				3FB898A9182C0E79001A7D81 /* Images.xcassets in Resources */,
-				3F5BFE34185E684B0012DCB3 /* hedgehog2.png in Resources */,
 				3FB8989B182C0E79001A7D81 /* InfoPlist.strings in Resources */,
 				3F5BFE3B185E85990012DCB3 /* Level2.plist in Resources */,
 				3F39AFB018355F5000282BF9 /* timeRunningOutSound.wav in Resources */,
-				3F6DB1EA1832AD0000EAA004 /* titleScreen.png in Resources */,
-				3F5BFE37185E684B0012DCB3 /* rock.png in Resources */,
-				3F5BFE33185E684B0012DCB3 /* hedgehog1.png in Resources */,
 				3F5BFE40185EA0520012DCB3 /* Level3.plist in Resources */,
-				3F5BFE35185E684B0012DCB3 /* log.png in Resources */,
 				3F5BFE39185E6C480012DCB3 /* Level1.plist in Resources */,
-				590E5F121831663A002F7C37 /* testBall.png in Resources */,
 				3FB898A4182C0E79001A7D81 /* Main.storyboard in Resources */,
 				3F39AFB118355F5000282BF9 /* winSound.wav in Resources */,
 			);

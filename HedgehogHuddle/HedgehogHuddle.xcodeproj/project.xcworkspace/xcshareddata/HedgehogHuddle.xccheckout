@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EDCF793A-5CB7-4C25-BFD5-D1EA054838E9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HedgehogHuddle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>364DB9C3-A364-4341-9B3E-04BDD6BE60B3</key>
+		<string>https://github.com/piperchester/hedgehog-huddle</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HedgehogHuddle/HedgehogHuddle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>364DB9C3-A364-4341-9B3E-04BDD6BE60B3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/piperchester/hedgehog-huddle</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>364DB9C3-A364-4341-9B3E-04BDD6BE60B3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>364DB9C3-A364-4341-9B3E-04BDD6BE60B3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hedgehog-huddle</string>
+		</dict>
+	</array>
+</dict>
+</plist>
