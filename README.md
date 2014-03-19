@@ -1,6 +1,6 @@
 hedgehog-huddle
 ===============
 
-A 2D iOS game created in SpriteKit
+A 2D iOS game utilizing SpriteKit.
 
--Utilizes the iPhone Accelerometer for moving the player around the maze
+The goal of the game is to navigate the hedgehog to the goal point by tilting the iPhone. The acceleromter determines speed and direction of the hedgehog.
