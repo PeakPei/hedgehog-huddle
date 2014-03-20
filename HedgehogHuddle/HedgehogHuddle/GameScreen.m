@@ -367,7 +367,7 @@ static const float _bumperDiameter = 30;
         if(nextScreenClass == 1){
             nextScene = [[WinScreen alloc] initWithSize:self.size];
         }else if (nextScreenClass == 2){
-            nextScene = [[loseScreen alloc] initWithSize:self.size];
+            nextScene = [[LoseScreen alloc] initWithSize:self.size];
         }
         //NSLog(@"Screen to change: %d", nextScreenClass);
         [self.view presentScene:nextScene transition:doors];

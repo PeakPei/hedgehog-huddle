@@ -1,5 +1,5 @@
 //
-//  loseScreen.h
+//  LoseScreen.h
 //  HedgehogHuddle
 //
 //  Created by Student on 11/21/13.
@@ -8,6 +8,6 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface loseScreen : SKScene
+@interface LoseScreen : SKScene
 
 @end
